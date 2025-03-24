@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1563906313 source:/home/andre/Documentos/derzuexercicios/Exercicio4/main.cpp
+	<iostream>
+	"Pessoa.h"
+
+1563906231 source:/home/andre/Documentos/derzuexercicios/Exercicio4/src/Pessoa.cpp
+	"Pessoa.h"
+	<iostream>
+
+1563906039 /home/andre/Documentos/derzuexercicios/Exercicio4/include/Pessoa.h
+	<iostream>
+

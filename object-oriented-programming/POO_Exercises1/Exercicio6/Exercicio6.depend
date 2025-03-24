@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1563909575 source:/home/andre/Documentos/derzuexercicios/Exercicio6/main.cpp
+	<iostream>
+	"ControleDePagamentos.h"
+
+1563908994 source:/home/andre/Documentos/derzuexercicios/Exercicio6/src/ControleDePagamentos.cpp
+	"ControleDePagamentos.h"
+
+1563908994 /home/andre/Documentos/derzuexercicios/Exercicio6/include/ControleDePagamentos.h
+	"Pagamento.h"
+
+1563909007 /home/andre/Documentos/derzuexercicios/Exercicio6/include/Pagamento.h
+	<iostream>
+
+1563908994 source:/home/andre/Documentos/derzuexercicios/Exercicio6/src/Pagamento.cpp
+	"Pagamento.h"
+

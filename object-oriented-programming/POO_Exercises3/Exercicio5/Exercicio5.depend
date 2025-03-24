@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1564895049 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio5\main.cpp
+	<iostream>
+	"TrabalhadorAssalariado.h"
+
+1564894131 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio5\src\trabalhador.cpp
+	"Trabalhador.h"
+
+1564894130 c:\users\andre\onedrive\documentos\roteiro2\exercicio5\include\trabalhador.h
+	<iostream>
+
+1564895049 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio5\src\trabalhadorporhora.cpp
+	"TrabalhadorPorHora.h"
+
+1564895266 c:\users\andre\onedrive\documentos\roteiro2\exercicio5\include\trabalhadorporhora.h
+	"Trabalhador.h"
+
+1564895189 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio5\src\trabalhadorassalariado.cpp
+	"TrabalhadorAssalariado.h"
+
+1564895189 c:\users\andre\onedrive\documentos\roteiro2\exercicio5\include\trabalhadorassalariado.h
+	"TrabalhadorPorHora.h"
+

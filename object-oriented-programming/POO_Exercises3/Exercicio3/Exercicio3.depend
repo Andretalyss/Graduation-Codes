@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1564783073 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio3\main.cpp
+	<iostream>
+	"Consultor.h"
+
+1564764025 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio3\src\funcionario.cpp
+	"Funcionario.h"
+
+1564782357 c:\users\andre\onedrive\documentos\roteiro2\exercicio3\include\funcionario.h
+	<iostream>
+
+1564782357 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio3\src\consultor.cpp
+	"Consultor.h"
+
+1564782357 c:\users\andre\onedrive\documentos\roteiro2\exercicio3\include\consultor.h
+	"Funcionario.h"
+

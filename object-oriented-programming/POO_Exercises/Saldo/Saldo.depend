@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1566440366 source:d:\listamaritan2\saldo\main.cpp
+	<iostream>
+	"ContaEspecial.h"
+	<exception>
+	"SaldoNaoDisponivelException.h"
+
+1566440232 source:d:\listamaritan2\saldo\src\iconta.cpp
+
+1566440184 source:d:\listamaritan2\saldo\src\conta.cpp
+	"Conta.h"
+	"SaldoNaoDisponivelException.h"
+
+1566440184 d:\listamaritan2\saldo\include\conta.h
+	"IConta.h"
+
+1566440240 d:\listamaritan2\saldo\include\iconta.h
+	<iostream>
+
+1566440332 d:\listamaritan2\saldo\include\saldonaodisponivelexception.h
+	<exception>
+
+1566440332 source:d:\listamaritan2\saldo\src\contaespecial.cpp
+	"ContaEspecial.h"
+
+1566440332 d:\listamaritan2\saldo\include\contaespecial.h
+	"Conta.h"
+
+1566440332 source:d:\listamaritan2\saldo\src\saldonaodisponivelexception.cpp
+	"SaldoNaoDisponivelException.h"
+

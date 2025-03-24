@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1566447322 source:d:\listamaritan2\exercicio7\main.cpp
+	<iostream>
+	"RestauranteCaseiro.h"
+
+1566446162 source:d:\listamaritan2\exercicio7\src\mesaderestaurante.cpp
+	"MesaDeRestaurante.h"
+
+1566446408 d:\listamaritan2\exercicio7\include\mesaderestaurante.h
+	"Pedido.h"
+
+1566446408 d:\listamaritan2\exercicio7\include\pedido.h
+	<string>
+
+1566446664 source:d:\listamaritan2\exercicio7\src\pedido.cpp
+	"Pedido.h"
+	<iostream>
+
+1566446718 source:d:\listamaritan2\exercicio7\src\restaurantecaseiro.cpp
+	"RestauranteCaseiro.h"
+	<iostream>
+
+1566446408 d:\listamaritan2\exercicio7\include\restaurantecaseiro.h
+	"MesaDeRestaurante.h"
+
+1566507122 source:d:\lista2_lp1\exercicio7\src\mesaderestaurante.cpp
+	"MesaDeRestaurante.h"
+
+1566507122 d:\lista2_lp1\exercicio7\include\mesaderestaurante.h
+	"Pedido.h"
+
+1566507122 d:\lista2_lp1\exercicio7\include\pedido.h
+	<string>
+
+1566507124 source:d:\lista2_lp1\exercicio7\src\pedido.cpp
+	"Pedido.h"
+	<iostream>
+
+1566507124 source:d:\lista2_lp1\exercicio7\src\restaurantecaseiro.cpp
+	"RestauranteCaseiro.h"
+	<iostream>
+
+1566507122 d:\lista2_lp1\exercicio7\include\restaurantecaseiro.h
+	"MesaDeRestaurante.h"
+

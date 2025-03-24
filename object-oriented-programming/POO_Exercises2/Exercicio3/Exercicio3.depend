@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1567814368 source:d:\roteiro3\exercicio3\main.cpp
+	<iostream>
+	"Conta.h"
+	"ContaCorrente.h"
+	"Poupanca.h"
+
+1567811846 source:d:\roteiro3\exercicio3\src\conta.cpp
+	"Conta.h"
+
+1567812488 d:\roteiro3\exercicio3\include\conta.h
+	<iostream>
+
+1567812488 source:d:\roteiro3\exercicio3\src\contacorrente.cpp
+	"ContaCorrente.h"
+
+1567898970 d:\roteiro3\exercicio3\include\contacorrente.h
+	<Conta.h>
+
+1567813524 source:d:\roteiro3\exercicio3\src\poupanca.cpp
+	"Poupanca.h"
+
+1567812580 d:\roteiro3\exercicio3\include\poupanca.h
+	"Conta.h"
+
+1567898948 source:d:\roteiro3\exercicio3\src\contaespecial.cpp
+	"ContaEspecial.h"
+
+1567898948 d:\roteiro3\exercicio3\include\contaespecial.h
+	"ContaCorrente.h"
+

@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1566437510 source:d:\listamaritan2\exercicio4\main.cpp
+	<iostream>
+	"Cirurgiao.h"
+	"Oftalmo.h"
+	"Ginecologista.h"
+	<locale>
+
+1566436698 source:d:\listamaritan2\exercicio4\src\medico.cpp
+	"Medico.h"
+
+1566436608 d:\listamaritan2\exercicio4\include\medico.h
+	<iostream>
+
+1566437228 source:d:\listamaritan2\exercicio4\src\cirurgiao.cpp
+	"Cirurgiao.h"
+
+1566436608 d:\listamaritan2\exercicio4\include\cirurgiao.h
+	"Medico.h"
+
+1566437188 source:d:\listamaritan2\exercicio4\src\oftalmo.cpp
+	"Oftalmo.h"
+
+1566436608 d:\listamaritan2\exercicio4\include\oftalmo.h
+	"Medico.h"
+
+1566437460 d:\listamaritan2\exercicio4\include\ginecologista.h
+	"Medico.h"
+
+1566437518 source:d:\listamaritan2\exercicio4\src\ginecologista.cpp
+	"Ginecologista.h"
+

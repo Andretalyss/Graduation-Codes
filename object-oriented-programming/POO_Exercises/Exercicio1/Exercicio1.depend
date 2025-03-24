@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1566328032 source:d:\listamaritan2\exercicio1\main.cpp
+	<iostream>
+	<locale>
+	"Triangulo.h"
+	"Quadrado.h"
+
+1566327588 source:d:\listamaritan2\exercicio1\src\figurasgeometricas.cpp
+	"FigurasGeometricas.h"
+
+1566327588 d:\listamaritan2\exercicio1\include\figurasgeometricas.h
+	<iostream>
+
+1566326788 source:d:\listamaritan2\exercicio1\src\triangulo.cpp
+	"Triangulo.h"
+
+1566326666 d:\listamaritan2\exercicio1\include\triangulo.h
+	"FigurasGeometricas.h"
+
+1566327188 source:d:\listamaritan2\exercicio1\src\quadrado.cpp
+	"Quadrado.h"
+
+1566327188 d:\listamaritan2\exercicio1\include\quadrado.h
+	"FigurasGeometricas.h"
+
+1566328108 source:d:\listamaritan2\exercicio1\src\circulo.cpp
+	"Circulo.h"
+	<math.h>
+
+1566328034 d:\listamaritan2\exercicio1\include\circulo.h
+	"FigurasGeometricas.h"
+

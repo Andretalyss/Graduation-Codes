@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1567271512 source:d:\roteiro3\exercicio4\main.cpp
+	<iostream>
+	"FuncionarioNaoExisteException.h"
+	"OrcamentoEstouradoException.h"
+	"Funcionario.h"
+	"Assalariado.h"
+	"Comissionado.h"
+	"Horista.h"
+	"Gerencia.h"
+	<locale>
+
+1567269108 source:d:\roteiro3\exercicio4\src\funcionario.cpp
+
+1567269558 source:d:\roteiro3\exercicio4\src\assalariado.cpp
+	"Assalariado.h"
+
+1567269558 d:\roteiro3\exercicio4\include\assalariado.h
+	"Funcionario.h"
+
+1567269108 d:\roteiro3\exercicio4\include\funcionario.h
+	<iostream>
+
+1567269558 source:d:\roteiro3\exercicio4\src\comissionado.cpp
+	"Comissionado.h"
+
+1567269558 d:\roteiro3\exercicio4\include\comissionado.h
+	"Funcionario.h"
+
+1567269558 source:d:\roteiro3\exercicio4\src\horista.cpp
+	"Horista.h"
+
+1567269558 d:\roteiro3\exercicio4\include\horista.h
+	"Funcionario.h"
+
+1567271432 source:d:\roteiro3\exercicio4\src\gerencia.cpp
+	"Gerencia.h"
+	<cstring>
+	<stdlib.h>
+	"FuncionarioNaoExisteException.h"
+	"OrcamentoEstouradoException.h"
+
+1567271432 d:\roteiro3\exercicio4\include\gerencia.h
+	<vector>
+	"Funcionario.h"
+
+1567270604 source:d:\roteiro3\exercicio4\src\funcionarionaoexisteexception.cpp
+	"FuncionarioNaoExisteException.h"
+
+1567270604 d:\roteiro3\exercicio4\include\funcionarionaoexisteexception.h
+	<exception>
+
+1567271136 d:\roteiro3\exercicio4\include\orcamentoestouradoexception.h
+	<exception>
+
+1567271512 source:d:\roteiro3\exercicio4\src\orcamentoestouradoexception.cpp
+	"OrcamentoEstouradoException.h"
+

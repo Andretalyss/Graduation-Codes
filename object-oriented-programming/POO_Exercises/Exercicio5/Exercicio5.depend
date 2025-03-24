@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1566439296 source:d:\listamaritan2\exercicio5\main.cpp
+	<iostream>
+	"TestaValidaNum.h"
+	"ValorAbaixoException.h"
+	"ValorAcimaException.h"
+	"ValorMuitoAcimaException.h"
+
+1566439090 source:d:\listamaritan2\exercicio5\src\valorabaixoexception.cpp
+	"ValorAbaixoException.h"
+
+1566438260 d:\listamaritan2\exercicio5\include\valorabaixoexception.h
+	<exception>
+	<iostream>
+
+1566438382 source:d:\listamaritan2\exercicio5\src\valoracimaexception.cpp
+	"ValorAcimaException.h"
+
+1566438382 d:\listamaritan2\exercicio5\include\valoracimaexception.h
+	<exception>
+	<iostream>
+
+1566439168 source:d:\listamaritan2\exercicio5\src\testavalidanum.cpp
+	"TestaValidaNum.h"
+	"ValorAbaixoException.h"
+	"ValorAcimaException.h"
+	"ValorMuitoAcimaException.h"
+
+1566439168 d:\listamaritan2\exercicio5\include\testavalidanum.h
+	<iostream>
+
+1566438506 source:d:\listamaritan2\exercicio5\src\valormuitoacimaexception.cpp
+	"ValorMuitoAcimaException.h"
+
+1566438506 d:\listamaritan2\exercicio5\include\valormuitoacimaexception.h
+	<exception>
+	<iostream>
+

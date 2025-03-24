@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1563908221 source:/home/andre/Documentos/derzuexercicios/Exercicio5/main.cpp
+	<iostream>
+	"ControleDeGastos.h"
+
+1563907909 source:/home/andre/Documentos/derzuexercicios/Exercicio5/src/ControleDeGastos.cpp
+	"ControleDeGastos.h"
+
+1563907669 /home/andre/Documentos/derzuexercicios/Exercicio5/include/ControleDeGastos.h
+	"Despesa.h"
+
+1563907669 /home/andre/Documentos/derzuexercicios/Exercicio5/include/Despesa.h
+	<iostream>
+
+1563907669 source:/home/andre/Documentos/derzuexercicios/Exercicio5/src/Despesa.cpp
+	"Despesa.h"
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1565571768 source:d:\exercise1\main.cpp
+	<iostream>
+	"RestauranteCaseiro.h"
+
+1565567400 source:d:\exercise1\src\pedido.cpp
+	"Pedido.h"
+
+1565567400 d:\exercise1\include\pedido.h
+	<iostream>
+	<string>
+	<sstream>
+
+1565571490 source:d:\exercise1\src\mesaderestaurante.cpp
+	"MesaDeRestaurante.h"
+
+1565569132 d:\exercise1\include\mesaderestaurante.h
+	"Pedido.h"
+
+1565571044 source:d:\exercise1\src\restaurantecaseiro.cpp
+	"RestauranteCaseiro.h"
+
+1565569062 d:\exercise1\include\restaurantecaseiro.h
+	"MesaDeRestaurante.h"
+

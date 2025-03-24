@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566332432 source:d:\listamaritan2\exercicio8\main.cpp
+	<iostream>
+	<fstream>
+	<locale>
+

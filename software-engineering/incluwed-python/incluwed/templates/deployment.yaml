@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.backend.name }}
+  labels:
+    app: {{ .Values.backend.name }}
+    namespace: {{ .Values.namespace }}
+
+spec:
+  replicas: {{ .Values.backend.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.backend.name }}
+      env: {{ .Values.backend.env }}
+
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.backend.name }}
+        version: {{ .Values.backend.image.tag }}
+        env: {{ .Values.backend.env }}
+
+    spec:
+      initContainers:
+        - name: wait-for-postgres
+          image: busybox
+          command: ['sh', '-c', 'until nc -z -v -w30 postgres 5432; do echo "Waiting for database..."; sleep 5; done;']
+      
+      containers:
+        - name: {{ .Values.backend.name }}
+          image: "{{ .Values.backend.image.repository }}:{{ .Values.backend.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.backend.pullPolicy }}
+          ports:
+          - name: {{ .Values.backend.name }}
+            containerPort: {{ .Values.backend.port }}
+            protocol: TCP
+          envFrom:
+            - secretRef:
+                name: {{ .Values.postgres.name }}-secret
+
+          livenessProbe:
+            tcpSocket:
+              port: {{ .Values.backend.port }}
+            initialDelaySeconds: 20
+            periodSeconds: 25
+          
+          readinessProbe:
+            tcpSocket:
+              port: {{ .Values.backend.port }}
+            initialDelaySeconds: 20
+            periodSeconds: 25
+            
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}

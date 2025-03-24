@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1563905588 source:/home/andre/Documentos/derzuexercicios/Exercicio3/main.cpp
+	<iostream>
+	"Empregado.h"
+
+1563905162 source:/home/andre/Documentos/derzuexercicios/Exercicio3/src/Empregado.cpp
+	"Empregado.h"
+	<iostream>
+
+1563905070 /home/andre/Documentos/derzuexercicios/Exercicio3/include/Empregado.h
+	<iostream>
+

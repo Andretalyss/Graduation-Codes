@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1566511814 source:d:\listamaritan2\exercicio3\main.cpp
+	<iostream>
+	"Funcionario.h"
+	"Horista.h"
+	"Gerencia.h"
+	<locale>
+
+1566449656 source:d:\listamaritan2\exercicio3\src\funcionario.cpp
+
+1566512688 d:\listamaritan2\exercicio3\include\funcionario.h
+	<iostream>
+
+1566512688 source:d:\listamaritan2\exercicio3\src\assalariado.cpp
+	"Assalariado.h"
+
+1566509376 d:\listamaritan2\exercicio3\include\assalariado.h
+	"Funcionario.h"
+
+1566511140 source:d:\listamaritan2\exercicio3\src\horista.cpp
+	"Horista.h"
+
+1566509378 d:\listamaritan2\exercicio3\include\horista.h
+	"Funcionario.h"
+
+1566512688 source:d:\listamaritan2\exercicio3\src\comissionado.cpp
+	"Comissionado.h"
+
+1566509378 d:\listamaritan2\exercicio3\include\comissionado.h
+	"Funcionario.h"
+
+1566512484 source:d:\listamaritan2\exercicio3\src\gerencia.cpp
+	"Gerencia.h"
+	<cstring>
+	<stdlib.h>
+
+1566512498 d:\listamaritan2\exercicio3\include\gerencia.h
+	<vector>
+	"Funcionario.h"
+	"Horista.h"
+	"Assalariado.h"
+	"Comissionado.h"
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1563904233 source:/home/andre/Documentos/derzuexercicios/Exercicio1/main.cpp
+	<iostream>
+	"Data.h"
+	<stdio.h>
+
+1563904266 source:/home/andre/Documentos/derzuexercicios/Exercicio1/src/Data.cpp
+	"Data.h"
+
+1563903984 /home/andre/Documentos/derzuexercicios/Exercicio1/include/Data.h
+

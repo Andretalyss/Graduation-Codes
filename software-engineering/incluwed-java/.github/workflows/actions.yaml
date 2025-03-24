@@ -1,0 +1,47 @@
+name: Deploy [HOMOLOG]
+
+on:
+  push:
+    branches:
+      - test
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build project
+        run: echo "Building project..."
+        
+      - name: Save build artifacts
+        run: mkdir -p build && echo "Artifact content" > build/artifact.txt
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: build/artifact.txt
+          
+  scp:
+    runs-on: gitops-runner
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build-artifact
+          path: artefato/
+
+      - name: Test artefato
+        run: cat artefato/artifact.txt
+        
+      - name: copy files
+        run: |
+          echo "$SSH_PRIVATE_KEY" > private_key && chmod 600 private_key
+        env:
+           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
+  

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1567268590 source:d:\roteiro3\exercicio1\main.cpp
+	<iostream>
+	"ContaEspecial.h"
+	<locale>
+
+1567268130 source:d:\roteiro3\exercicio1\src\iconta.cpp
+
+1567268470 source:d:\roteiro3\exercicio1\src\contaespecial.cpp
+	"ContaEspecial.h"
+
+1567268470 d:\roteiro3\exercicio1\include\contaespecial.h
+	"Conta.h"
+
+1567268470 d:\roteiro3\exercicio1\include\conta.h
+	"IConta.h"
+
+1567268216 d:\roteiro3\exercicio1\include\iconta.h
+	<iostream>
+
+1567268868 source:d:\roteiro3\exercicio1\src\conta.cpp
+	"Conta.h"
+

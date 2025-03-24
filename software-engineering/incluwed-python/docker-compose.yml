@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: flask_app
+    command: gunicorn -w 2 -b 0.0.0.0:8000 main:api --log-level debug
+    ports:
+      - "8000:8000"  # Mapeia a porta 8000 do contêiner para a porta 8000 da máquina local
+    environment:
+      - DB_HOST=db  # O serviço de banco de dados será referenciado como 'db' dentro da rede do Docker Compose
+      - DB_PORT=5432
+      - DB_USER=postgres
+      - DB_PASSWORD=api
+      - DB_DATABASE=postgres
+      - SECRET_TOKEN=12345678
+    depends_on:
+      - db  # Garante que o contêiner do banco de dados seja iniciado antes da aplicação Flask
+
+  db:
+    image: postgres:13
+    container_name: postgres_db
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=api
+    ports:
+      - "5432:5432"  # Mapeia a porta 5432 do contêiner para a porta 5432 da máquina local
+    volumes:
+      - pg_data:/var/lib/postgresql/data  # Volume persistente para os dados do banco
+
+volumes:
+  pg_data:  # Volume persistente para o banco de dados

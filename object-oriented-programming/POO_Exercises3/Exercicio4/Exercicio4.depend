@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1564781584 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio4\main.cpp
+	<iostream>
+	"Quadrado.h"
+	<cctype>
+
+1564779287 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio4\src\figurasgeometricas.cpp
+	"FigurasGeometricas.h"
+
+1564781301 c:\users\andre\onedrive\documentos\roteiro2\exercicio4\include\figurasgeometricas.h
+	<iostream>
+
+1564781584 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio4\src\triangulo.cpp
+	"Triangulo.h"
+
+1564781737 c:\users\andre\onedrive\documentos\roteiro2\exercicio4\include\triangulo.h
+	"FigurasGeometricas.h"
+
+1564781584 source:c:\users\andre\onedrive\documentos\roteiro2\exercicio4\src\quadrado.cpp
+	"Quadrado.h"
+
+1564781737 c:\users\andre\onedrive\documentos\roteiro2\exercicio4\include\quadrado.h
+	"Triangulo.h"
+
